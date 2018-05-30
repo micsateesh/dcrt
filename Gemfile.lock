@@ -51,12 +51,19 @@ GEM
     concurrent-ruby (1.0.5)
     crass (1.0.4)
     debug_inspector (0.0.3)
+    decent_exposure (3.0.2)
+      activesupport (>= 4.0)
     devise (4.4.3)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 4.1.0, < 6.0)
       responders
       warden (~> 1.2.3)
+    draper (2.1.0)
+      actionpack (>= 3.0)
+      activemodel (>= 3.0)
+      activesupport (>= 3.0)
+      request_store (~> 1.0)
     erubis (2.7.0)
     execjs (2.7.0)
     ffi (1.9.23)
@@ -117,6 +124,8 @@ GEM
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
     rdoc (4.3.0)
+    request_store (1.4.1)
+      rack (>= 1.4)
     responders (2.4.0)
       actionpack (>= 4.2.0, < 5.3)
       railties (>= 4.2.0, < 5.3)
@@ -167,7 +176,9 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.1.0)
+  decent_exposure (~> 3.0.2)
   devise
+  draper
   jbuilder (~> 2.0)
   jquery-rails
   pg (~> 0.21)
