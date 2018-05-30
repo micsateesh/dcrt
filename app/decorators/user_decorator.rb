@@ -3,6 +3,6 @@ class UserDecorator < Draper::Decorator
   delegate :email
 
   def name
-   "satish"
+   "test"
   end
 end

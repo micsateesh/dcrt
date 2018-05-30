@@ -1,1 +1,3 @@
 <h1><%= decorated_user.name %></h1>
+<p><%= user.check_entry %></p>
+<%= link_to "Logout", destroy_user_session_path, :method => 'delete' %>
